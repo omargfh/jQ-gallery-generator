@@ -1,0 +1,3 @@
+<--- BASE START <div class="gallery"> <div class="pop-up-call" data-type="image">         <div class="show-gallery-item-on-hover"></div>     </div> 	{content} </div> BASE END --->  
+<--- ROW START <div class="row no-gutters"> {content} </div> {postrow} ROW END --->  
+<--- ELEMENT START <div class="col-md">     <div class="gallery-item img-gradient">         <img src="images/gallery-sm/{img}.jpg" alt="placeholder" data-hover="images/gallery-big/{img}.jpg" data-popup="images/gallery-big/{img}.png" data-flairs="">     </div> </div> {content} ELEMENT END ---> 
